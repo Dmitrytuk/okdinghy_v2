@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "okdinghy v2 django project"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Ivanov <ydimail@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "okdinghy v2 django project", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.14.0"
+django-stubs = "^4.2.7"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
